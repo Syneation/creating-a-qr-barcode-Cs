@@ -29,10 +29,16 @@ namespace Code
 
         private void button2_Click(object sender, EventArgs e)
         {
-            isGeneratedqr = true;
-            pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
-            Zen.Barcode.CodeQrBarcodeDraw qrbarcode = Zen.Barcode.BarcodeDrawFactory.CodeQr;
-            pictureBox2.Image = qrbarcode.Draw(txtQr.Text, 200);
+            try
+            {
+                isGeneratedqr = true;
+                pictureBox2.SizeMode = PictureBoxSizeMode.AutoSize;
+                Zen.Barcode.CodeQrBarcodeDraw qrbarcode = Zen.Barcode.BarcodeDrawFactory.CodeQr;
+                pictureBox2.Image = qrbarcode.Draw(txtQr.Text, 200);
+            } catch
+            {
+                MessageBox.Show("Max text: 200 or Error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)

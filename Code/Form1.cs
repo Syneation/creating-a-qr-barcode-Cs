@@ -39,10 +39,16 @@ namespace Code
 
         private void btnGen_Click(object sender, EventArgs e)
         {
-            isGenerated = true;
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
-            Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
-            pictureBox1.Image = barcode.Draw(txtBar.Text, 200);
+            try
+            {
+                isGenerated = true;
+                pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+                Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
+                pictureBox1.Image = barcode.Draw(txtBar.Text, 200);
+            } catch
+            {
+                MessageBox.Show("Max text: 200 or Error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void кодToolStripMenuItem_Click(object sender, EventArgs e)
