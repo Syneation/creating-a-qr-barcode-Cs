@@ -1,0 +1,15 @@
+D:\Code(Cs)\Code\Code\bin\Debug\Code.exe.config
+D:\Code(Cs)\Code\Code\bin\Debug\Code.exe
+D:\Code(Cs)\Code\Code\bin\Debug\Code.pdb
+D:\Code(Cs)\Code\Code\bin\Debug\Zen.Barcode.Core.dll
+D:\Code(Cs)\Code\Code\obj\Debug\Code.csproj.AssemblyReference.cache
+D:\Code(Cs)\Code\Code\obj\Debug\Code.Form1.resources
+D:\Code(Cs)\Code\Code\obj\Debug\Code.Properties.Resources.resources
+D:\Code(Cs)\Code\Code\obj\Debug\Code.csproj.GenerateResource.cache
+D:\Code(Cs)\Code\Code\obj\Debug\Code.csproj.CoreCompileInputs.cache
+D:\Code(Cs)\Code\Code\obj\Debug\Code.csproj.Up2Date
+D:\Code(Cs)\Code\Code\obj\Debug\Code.exe
+D:\Code(Cs)\Code\Code\obj\Debug\Code.pdb
+D:\Code(Cs)\Code\Code\obj\Debug\Code.QrCode.resources
+D:\Code(Cs)\Code\Code\obj\Debug\Code.Note.resources
+D:\Code(Cs)\Code\Code\obj\Debug\Code.about.resources
