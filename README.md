@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Alex;
 - 👀 I’m interested games, programms and sites;
 - 🌱 I’m currently learning C# and fullstack(html, css, js, php);
-- 💞️ I’m looking to collaborate on Microsoft, Google, Valve, Yandex;
+- 💞️ I’m looking to collaborate on Microsoft, Google, Valve, Rockstar and Yandex;
 - 📫 How to reach me my gmail 777999cosa@gmail.com.
 
 <!---
